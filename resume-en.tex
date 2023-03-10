@@ -1,0 +1,191 @@
+
+
+% My Resume 
+\documentclass{resume}
+
+% Adjust icon size (default: same size as the text)
+\iconsize{\Large}
+
+% File information shown at the footer of the last page
+\fileinfo{%
+  \faCopyright{} 2023, Iman Nemati \hspace{0.5em}
+  %\creativecommons{by}{4.0} \hspace{0.5em}
+  %\githublink{account}{repo} \hspace{0.5em}
+  \faEdit{} \today
+}
+
+\name{Iman}{Nemati}
+
+\keywords{Iman Nemati, Software Developer, C\# Developer, Python, JavaScript }
+
+% \tagline{\icon{\faBinoculars}} <position-to-look-for>}
+\tagline{Software Developer}
+
+% \photo{<height>}{<filename>}
+
+\profile{
+  \mobile{989120781451}
+  \email{imun22@gmail.com}
+  \github{imaun} 
+  \linkedin{inemati}
+  \degree{Bachelor in Software Engineering}
+  \address{Kish Island, Iran}
+}
+
+\begin{document}
+\makeheader
+
+%======================================================================
+% Summary 
+%======================================================================
+Highly-motivated, self-disciplined Software Developer
+with more than 12 years of experience, building both back-end and front-end for the Web. Strong software development skills with C\# and .NET, capable of working with JavaScript and Python as well.
+%======================================================================
+\sectionTitle{Skills}{\faWrench}
+%======================================================================
+\begin{competences}[10em]
+  \comptence{Programming}{
+    \textbf{C\#}, able to work with JavaScript and Python
+  }
+  \comptence{Frameworks}{%
+    \textbf{.NET Core}, ReactJS, Flask, Blazor
+  }
+  \comptence{Principles}{%
+    \textbf{Microservices}, Onion (Clean), Domain-Driven Design, CQS
+  }
+  \comptence{Test}{%
+    \textbf{TDD}, UnitTest, BDD, SpecFlow, Moq
+  }
+  \comptence{Web Development}{%
+    \textbf{React}, JavaScript, jQuery, Bootstrap, CSS
+  }
+  \comptence{Databases}{%
+    SQL Server, Neo4j, PostgreSQL, MongoDB, EventStore, SQLite
+  }
+  \comptence{Team}{%
+    \textbf{Git}, Jira, Gitlab, TFS, Github
+  }
+  \comptence{\icon{\faLanguage} Languages}{
+    \textbf{English} ---
+      reading \& writing (good);
+      listening \& speaking (conversant)
+  }
+\end{competences}
+
+%======================================================================
+\sectionTitle{Experiences}{\faBriefcase}
+%======================================================================
+\begin{experiences}
+  \experience%
+    [April 2022]%
+    {Present}%
+    {[1 year] \textbf{Senior Software Engineer @ ZinoTech} }%
+    [\begin{itemize}
+      \item Designing Microservices (Domain-Driven Design approach) with CQRS
+      \item Using RabbitMQ with MassTransit, EventStore for the write model, and Neo4j as the read model
+      \item Developed a shared library of utility classes such as Command/Query, Aggregate abstractions
+      \item Writing unit-test for business domain models
+      \item Achieved reliability for services by writing Specflow scenarios for business requirements and including BDD tests in the pipeline
+    \end{itemize}]
+
+  \separator{0.5ex}
+  \experience%
+    [Jul 2020]%
+    {Sep 2022}%
+    {[2 years] \textbf{Freelance Software Developer} }%
+    [\begin{itemize}
+      \item Developed a crypto-currency exchange (webiste, webapp) where users can buy/sell assets using Csharp, EF Core, Razor and React
+      \item Developed a reusable library for User Management on top of ASP.NET Identity (shared on my github)
+      \item Developed CoinMarketCap API client library for .NET Core (shared on my github) 
+      \item Developed a .NET library for online payments using different bank providers (shared on my github)
+    \end{itemize}]
+
+    \separator{0.5ex}
+    \experience%
+    [Jul 2019]%
+    {Jul 2020}%
+    {[1 year] \textbf{Lead Back-end Developer @ 1st Eurasia E-commerce}}%
+    [\begin{itemize}
+      \item worked closely with the product manager, design, and frontend teams to deliver an Online Payment platform
+       \item Implement an algorithm using Semaphore locks to prevent changing transactions by multiple actions at the same time
+    \end{itemize}]
+    
+    \separator{0.5ex}
+    \experience%
+    [Dec 2018]%
+    {Sep 2019}%
+    {[9 months] \textbf{Software Development Consultant @ Gam Industries}}%
+    [\begin{itemize}
+      \item Participate in analysis sessions and give advice on requirement analysis documentation
+      \item Implements the base infrastructure for the backend (clean/onion architecture)
+    \end{itemize}]
+
+    \separator{0.5ex}
+    \experience%
+    [May 2015]%
+    {Sep 2019}%
+    {[4 years] \textbf{Lead Software Developer @ Simorq Tejarat Total Solutions} }%
+    [\begin{itemize}
+      \item Working on software that runs on card reader devices for offline payments
+      \item Implementing a settlement WebAPI which the card readers would call, when a connection to the server was in place
+      \item Opportunity to work in the banking industry for 4 years
+      \item Developed Parking Management software that uses plate recognition system (ANPR)
+      \item Lead a team of 7 developers to achieve deadlines on time for a variety of products and services
+    \end{itemize}]
+
+    \separator{0.5ex}
+    \experience%
+    [Oct 2014]%
+    {May 2015}%
+    {[8 months] \textbf{Software Developer @ Hoodad Tech} }%
+    [\begin{itemize}
+      \item Developed a server routine to download the latest APKs from app stores like GooglePlay or 1Mobile for our product which was a local AppStore in Iran
+      \item  Analyze and design data models and back-end for a music subscription service
+      \item Developed the AppStore website using .NET, SQL Server, EF, Redis
+    \end{itemize}]
+
+     \separator{0.5ex}
+     \experience%
+    [Jan 2012]%
+    {Aug 2013}%
+    {[1 year and  7 months] \textbf{Software Developer @ Datiss} }%
+    [\begin{itemize}
+      \item Implemented a plugin-based architecture for ASP.NET MVC which loads DLL dynamically at runtime
+      \item  Use Dapper for providing data for Reporting with StimulSoft
+      \item  Developed a WinForm application for dynamically creating new reports
+    \end{itemize}]
+
+    \separator{0.5ex}
+     \experience%
+    [Aug 2010]%
+    {Oct 2011}%
+    {[1 year and 1 month] \textbf{Software Developer @ Behsad} }%
+    [\begin{itemize}
+      \item Attend sessions with the Customer and find out their needs and wrote requirement documents
+      \item  Analyze, Design ERD, DataFlow, and models
+      \item  Developed core classes and infrastructure using C\#, model the Oracle11g database with NHibernate as the ORM
+    \end{itemize}]
+\end{experiences}
+
+%======================================================================
+\sectionTitle{Projects}{\faCode}
+%======================================================================
+\begin{itemize}
+  \item \link{https://github.com/behlog}{\texttt{Behlog}}:
+    (C\#, .NET CORE, EF)
+    Modular content management system. It is designed to be deployed over nuget as separate packages for different uses cases in building full-featured online websites, blogs, and shops
+  \item \link{https://github.com/imaun/idyfa}{\texttt{Idyfa}}:
+    (C#, .NET Core, ASP.NET Identity)
+    A library built on top of ASP.NET Identity to simplifies and customize it's functionalities, and add essential features for common needs.
+  \item \link{https://github.com/imaun/emojifa}{\texttt{Emojifa}}:
+    Standard Emojis in a class library to use in .NET projects
+  \item \link{https://github.com/imaun/toman}{\texttt{Toman}}:
+    A .NET Core library to work with international currencies.
+  \item \textbf{BitSharp}: A Crypto-Currency exchange that I've developed for one of my customers. (github private repository. I can add email to access it) 
+  \item \textbf{Hesabot}:
+  (Python) A telegram bot that keeps records of personal financial transactions for users
+  \item \textbf{Price Crawler}:
+  (Python) A crawler which gathers prices for specific products on some online stores like digikala.com and alerts the user if a price reaches a target price.
+\end{itemize}
+
+\end{document}
