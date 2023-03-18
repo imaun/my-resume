@@ -8,4 +8,3 @@ with open(template, 'r') as f:
 doc = Document(template)
 doc.generate_pdf('resume-en', clean_tex=True)
 print('your resuem is ready!')
-
